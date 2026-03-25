@@ -1,0 +1,10 @@
+{
+  "name": "@lzr/prettier-config",
+  "version": "1.0.0",
+  "description": "Prettier config padrão LZR Technologies",
+  "main": "index.json",
+  "peerDependencies": {
+    "prettier": ">=3.0.0"
+  },
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,14 @@
+# LZR Technologies — CODEOWNERS Template
+# Copie para .github/CODEOWNERS e ajuste os times.
+
+* @LZR-Technologies/engineering
+
+.github/ @LZR-Technologies/devops
+Dockerfile @LZR-Technologies/devops
+
+supabase/migrations/ @LZR-Technologies/backend-leads
+
+components/ui/ @LZR-Technologies/frontend-leads
+
+**/auth* @LZR-Technologies/security
+**/middleware* @LZR-Technologies/security

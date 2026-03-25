@@ -1,0 +1,13 @@
+{
+  "name": "@lzr/commitlint-config",
+  "version": "1.0.0",
+  "description": "CommitLint config — Conventional Commits padrão LZR",
+  "main": "index.js",
+  "peerDependencies": {
+    "@commitlint/cli": ">=19.0.0"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^19.0.0"
+  },
+  "license": "UNLICENSED"
+}

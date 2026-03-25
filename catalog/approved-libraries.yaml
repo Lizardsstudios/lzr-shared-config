@@ -1,0 +1,114 @@
+# LZR Technologies — Bibliotecas Aprovadas
+# Ref: Engineering Handbook v2.0 — Seção 00 (Mandamento #7)
+#
+# Regras:
+# - Toda dependência nova deve estar nesta lista ou passar por aprovação
+# - Licenças MIT/Apache/ISC/BSD: OK
+# - GPL: requer avaliação jurídica
+# - Pacotes sem manutenção (>12 meses sem commit): proibidos
+
+# === FRAMEWORK & RUNTIME ===
+- name: next
+  category: framework
+  usage: Frontend web (App Router)
+  license: MIT
+  status: approved
+
+- name: react
+  category: framework
+  usage: UI library
+  license: MIT
+  status: approved
+
+- name: expo
+  category: framework
+  usage: Mobile (React Native)
+  license: MIT
+  status: approved
+
+# === STATE & DATA FETCHING ===
+- name: "@tanstack/react-query"
+  category: data-fetching
+  license: MIT
+  status: approved
+  banned_alternatives: [swr]
+
+- name: zustand
+  category: state-management
+  license: MIT
+  status: approved
+  banned_alternatives: [redux, mobx, jotai, recoil]
+
+# === FORMS & VALIDATION ===
+- name: react-hook-form
+  category: forms
+  license: MIT
+  status: approved
+  banned_alternatives: [formik]
+
+- name: zod
+  category: validation
+  license: MIT
+  status: approved
+
+# === BACKEND ===
+- name: "@supabase/supabase-js"
+  category: backend
+  license: MIT
+  status: approved
+
+# === AI / LLM ===
+- name: "@anthropic-ai/sdk"
+  category: ai
+  license: MIT
+  status: approved
+
+- name: ai
+  category: ai
+  usage: Vercel AI SDK
+  license: Apache-2.0
+  status: approved
+
+# === UI & STYLING ===
+- name: tailwindcss
+  category: styling
+  license: MIT
+  status: approved
+
+- name: lucide-react
+  category: icons
+  license: ISC
+  status: approved
+  banned_alternatives: [react-icons, heroicons]
+
+# === TESTING ===
+- name: vitest
+  category: testing
+  license: MIT
+  status: approved
+
+- name: "@playwright/test"
+  category: testing
+  license: Apache-2.0
+  status: approved
+
+# === TOOLING ===
+- name: eslint
+  category: tooling
+  license: MIT
+  status: approved
+
+- name: prettier
+  category: tooling
+  license: MIT
+  status: approved
+
+- name: husky
+  category: tooling
+  license: MIT
+  status: approved
+
+- name: lint-staged
+  category: tooling
+  license: MIT
+  status: approved

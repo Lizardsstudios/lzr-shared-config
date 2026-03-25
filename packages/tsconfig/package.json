@@ -1,0 +1,7 @@
+{
+  "name": "@lzr/tsconfig",
+  "version": "1.0.0",
+  "description": "TSConfig base LZR Technologies — strict mode obrigatório",
+  "files": ["base.json", "nextjs.json", "react-native.json"],
+  "license": "UNLICENSED"
+}
